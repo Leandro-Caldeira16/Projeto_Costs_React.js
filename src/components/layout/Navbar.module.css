@@ -1,0 +1,33 @@
+
+
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    background-color: #222;
+    padding: 1em;
+    align-items: center;
+}
+
+img{
+    display: flex;
+    align-items: center;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.item{
+    padding: 1em;
+}
+
+.item a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.item a:hover{
+    color: #ffbb33;
+}
