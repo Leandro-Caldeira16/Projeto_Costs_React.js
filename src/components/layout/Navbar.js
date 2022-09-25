@@ -12,7 +12,7 @@ function Navbar(){
             <Link to='/'><img className={styles.img} src={Logo} alt='Costs'/></Link>
             <ul className={styles.list}>
                 <li className={styles.item}><Link to='/'>HOME</Link></li>
-                <li className={styles.item}><Link to='/project'>Projetos</Link></li>
+                <li className={styles.item}><Link to='/projects'>Projetos</Link></li>
                 <li className={styles.item}><Link to='/company'>Empresa</Link></li>
                 <li className={styles.item}><Link to='/contact'>Contato</Link></li>
             </ul>
