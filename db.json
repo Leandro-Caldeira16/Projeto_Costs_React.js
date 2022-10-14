@@ -2,36 +2,50 @@
   "projects": [
     {
       "name": "teste1",
-      "budget": "2000",
+      "budget": "4000",
       "category": {
         "id": "1",
         "name": "Infra"
       },
       "costs": 0,
       "services": [],
-      "id": 2
+      "id": 1
     },
     {
       "name": "teste2",
-      "budget": "3000",
+      "budget": "5000",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
       "costs": 0,
-      "services": [],
-      "id": 3
-    },
-    {
-      "name": "teste3",
-      "budget": "4000",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "costs": 0,
-      "services": [],
-      "id": 4
+      "services": [
+        {
+          "name": "qualquer",
+          "cost": "100",
+          "description": "faça isso",
+          "id": "c4b34b37-58af-44ce-a0fe-779765548a2a"
+        },
+        {
+          "name": "qualquer",
+          "cost": "100",
+          "description": "faça isso",
+          "id": "7966dbd8-c666-4da1-9177-6b2ca5fd70fb"
+        },
+        {
+          "name": "qualquer",
+          "cost": "100",
+          "description": "faça isso",
+          "id": "7966dbd8-c666-4da1-9177-6b2ca5fd70fb"
+        },
+        {
+          "name": "qualquer 2",
+          "cost": "100",
+          "description": "faça isso",
+          "id": "71ffc123-9b35-480a-9387-eada896d50f0"
+        }
+      ],
+      "id": 2
     }
   ],
   "categories": [
