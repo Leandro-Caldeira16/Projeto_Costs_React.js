@@ -7,45 +7,47 @@
         "id": "1",
         "name": "Infra"
       },
-      "costs": 0,
-      "services": [],
-      "id": 1
+      "costs": 200,
+      "services": [
+        {
+          "name": "teste1",
+          "cost": "200",
+          "description": "alguma coisa",
+          "id": "2cdcfe33-420e-457e-803a-1d907bb50985"
+        }
+      ],
+      "id": 1,
+      "cost": -1800
     },
     {
-      "name": "teste2",
+      "name": "teste3",
       "budget": "5000",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
       "costs": 0,
+      "services": [],
+      "id": 2,
+      "cost": -200
+    },
+    {
+      "name": "teste3",
+      "budget": "2000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "costs": 100,
       "services": [
         {
-          "name": "qualquer",
+          "name": "teste3",
           "cost": "100",
-          "description": "faça isso",
-          "id": "c4b34b37-58af-44ce-a0fe-779765548a2a"
-        },
-        {
-          "name": "qualquer",
-          "cost": "100",
-          "description": "faça isso",
-          "id": "7966dbd8-c666-4da1-9177-6b2ca5fd70fb"
-        },
-        {
-          "name": "qualquer",
-          "cost": "100",
-          "description": "faça isso",
-          "id": "7966dbd8-c666-4da1-9177-6b2ca5fd70fb"
-        },
-        {
-          "name": "qualquer 2",
-          "cost": "100",
-          "description": "faça isso",
-          "id": "71ffc123-9b35-480a-9387-eada896d50f0"
+          "description": "alguma coisa",
+          "id": "e5bed624-b850-41aa-9098-82e2e273bfe0"
         }
       ],
-      "id": 2
+      "id": 3
     }
   ],
   "categories": [
